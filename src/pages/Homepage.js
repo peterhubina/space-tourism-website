@@ -1,6 +1,9 @@
+import Header from "../components/Header";
+
 function Homepage() {
   return (
     <>
+      <Header />
       <main id="main" className="grid-container grid-container--home">
         <div>
           <h1 className="text-accent fs-500 ff-sans-cond uppercase letter-spacing-1">

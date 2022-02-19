@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 
+import Header from "../components/Header";
+
 import Moon from "../assets/destination/image-moon.png";
 import MoonWebp from "../assets/destination/image-moon.webp";
 
@@ -124,6 +126,7 @@ function Destination() {
 
   return (
     <>
+      <Header />
       <main
         id="main"
         className="grid-container grid-container--destination flow"

@@ -1,4 +1,4 @@
-import Header from "./Header";
+import Header from "../components/Header";
 
 import Hurley from "../assets/crew/image-douglas-hurley.png";
 import HurleyWebp from "../assets/crew/image-douglas-hurley.webp";
@@ -6,6 +6,7 @@ import HurleyWebp from "../assets/crew/image-douglas-hurley.webp";
 function Crew() {
   return (
     <>
+      <Header />
       <main id="main" className="grid-container grid-container--crew flow">
         <h1 className="numbered-title">
           <span aria-hidden="true">02</span> Meet your crew
